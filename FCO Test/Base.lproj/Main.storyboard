@@ -634,7 +634,7 @@
                                 <action selector="loginBarItemPressed:" destination="NL1-c7-gFY" id="loi-AZ-p03"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" image="icon_search.png" id="jgl-mt-7io">
+                        <barButtonItem key="rightBarButtonItem" image="icon_search" id="jgl-mt-7io">
                             <color key="tintColor" red="0.52941176470588236" green="0.52941176470588236" blue="0.52941176470588236" alpha="1" colorSpace="calibratedRGB"/>
                         </barButtonItem>
                     </navigationItem>
@@ -988,7 +988,7 @@
         <image name="icon_forum" width="29" height="25"/>
         <image name="icon_home" width="25" height="25"/>
         <image name="icon_profile" width="22" height="25"/>
-        <image name="icon_search.png" width="22" height="22"/>
+        <image name="icon_search" width="20" height="20"/>
         <image name="key.png" width="66" height="70"/>
         <image name="line.png" width="1172" height="19"/>
         <image name="loginfade.png" width="1242" height="1991"/>
