@@ -164,7 +164,7 @@
     
     //Call APIDataController and Login Function:
     APIDataController *controller = [APIDataController getInstance];
-    [controller loginUserWithParameters];
+    [controller loginWithUsername:@"israel" withPassword:@"1234"];
     
     
 }

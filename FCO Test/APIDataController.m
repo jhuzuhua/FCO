@@ -12,7 +12,8 @@
 
 static APIDataController *mainDataController;
 
-static NSString* const BaseURLString = @"http://www.raywenderlich.com/demos/weather_sample/";
+static NSString* const BaseURLString = @"http://www.fightcallout.com/api/v1.0/";
+static NSString* const Token = @"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXUyJ9.eyJzdWIiOjEsImlzcyI6Imh0dHA6XC9cL2FwaS5mY28uYXBwXC9hcGlcL3YxLjBcL2F1dGhcL2xvZ2luIiwiaWF0IjoiMTQzMzM4MTI4OSIsImV4cCI6IjE0MzMzODQ4ODkiLCJuYmYiOiIxNDMzMzgxMjg5IiwianRpIjoiYTBiZTUwODMzZWM1YjJkOGQ0NTc4YTRjODU0YWZkMDYifQ.MWUwZjM4MzBhNGNmNGJlNzAzOGFiYzA2Y2RhZTE5ZmI3NTlhMDNjZmMzMmJkMjJmN2I1MDYwYWE1YWE4ZTE5ZQ";
 
 #pragma mark - Class Methods
 
@@ -45,25 +46,34 @@ static NSString* const BaseURLString = @"http://www.raywenderlich.com/demos/weat
 
 #pragma mark - Login
 
--(void)loginUserWithParameters{
+-(void)loginWithUsername:(NSString*) username withPassword:(NSString*) password{
     
-    //1
-    NSString *string = [NSString stringWithFormat:@"%@weather.php?format=json", BaseURLString];
+    // Set up request variables and parameters
+    NSString *string = [NSString stringWithFormat:@"%@auth/login", BaseURLString];
     NSURL *url = [NSURL URLWithString:string];
-    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
+    [request setHTTPMethod:@"POST"];
+    [request setValue:Token forHTTPHeaderField:@"Authentication"];
     
-    // 2
+    NSString *parameters = [NSString stringWithFormat:@"email=%@&password=%@", username, password];
+    [request setHTTPBody:[parameters dataUsingEncoding:NSUTF8StringEncoding]];
+    
+    NSLog(@"%@", request.description);
+    
+    // Initialize the request operation and its completion block
     AFHTTPRequestOperation *operation = [[AFHTTPRequestOperation alloc] initWithRequest:request];
     operation.responseSerializer = [AFJSONResponseSerializer serializer];
     
     [operation setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject) {
         
-        NSLog(@"%@", (NSDictionary*) responseObject);
+        // Handle responses from the server
+        NSLog(@"Response - %@", (NSDictionary*) responseObject);
+        
         
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         
-        // 4
-        UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Error Retrieving Weather"
+        // Display alert for errors
+        UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Error Retrieving Data"
                                                             message:[error localizedDescription]
                                                            delegate:nil
                                                   cancelButtonTitle:@"Ok"
@@ -71,8 +81,10 @@ static NSString* const BaseURLString = @"http://www.raywenderlich.com/demos/weat
         [alertView show];
     }];
     
-    // 5
+    // Start the operation request
     [operation start];
 }
+
+#pragma mark - 
     
 @end

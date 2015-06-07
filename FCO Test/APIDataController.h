@@ -15,6 +15,6 @@
 
 + (APIDataController *)getInstance;
 
--(void)loginUserWithParameters;
+-(void)loginWithUsername:(NSString*) username withPassword:(NSString*) password;
 
 @end
