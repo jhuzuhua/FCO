@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="3mA-uO-b4d">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="3mA-uO-b4d">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -293,7 +293,7 @@
                                     <constraint firstAttribute="trailing" secondItem="ff2-oL-Ae6" secondAttribute="trailing" constant="9" id="ixp-DO-4qs"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XCh-g2-fME">
+                            <button opaque="NO" contentMode="scaleAspectFit" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XCh-g2-fME">
                                 <rect key="frame" x="544" y="20" width="23" height="23"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="23" id="UjL-pF-qnh"/>
@@ -999,6 +999,6 @@
         <image name="xbutton.png" width="81" height="81"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="r10-PU-MhK"/>
+        <segue reference="1gG-bz-9PB"/>
     </inferredMetricsTieBreakers>
 </document>
