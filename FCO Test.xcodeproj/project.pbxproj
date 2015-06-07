@@ -71,6 +71,7 @@
 		CDAEF8941B2444B10031334F /* DetailMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAEF8931B2444B10031334F /* DetailMainViewController.m */; };
 		CDAEF8981B2449710031334F /* floydmayweather.png in Resources */ = {isa = PBXBuildFile; fileRef = CDAEF8961B2449700031334F /* floydmayweather.png */; };
 		CDAEF8991B2449710031334F /* miketyson.png in Resources */ = {isa = PBXBuildFile; fileRef = CDAEF8971B2449700031334F /* miketyson.png */; };
+		CDB644821B24CBEC00AD903D /* fightcallout2.png in Resources */ = {isa = PBXBuildFile; fileRef = CDB644811B24CBEC00AD903D /* fightcallout2.png */; };
 		CDF8942A1B22CED0009B1DEC /* FCOLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF894271B22CED0009B1DEC /* FCOLoadingView.m */; };
 		CDF8942B1B22CED0009B1DEC /* JGAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF894291B22CED0009B1DEC /* JGAnimationView.m */; };
 		CDF8942E1B22CF12009B1DEC /* FCOCustomIndicatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF8942D1B22CF12009B1DEC /* FCOCustomIndicatorViewController.m */; };
@@ -174,6 +175,7 @@
 		CDAEF8931B2444B10031334F /* DetailMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailMainViewController.m; sourceTree = "<group>"; };
 		CDAEF8961B2449700031334F /* floydmayweather.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = floydmayweather.png; sourceTree = "<group>"; };
 		CDAEF8971B2449700031334F /* miketyson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = miketyson.png; sourceTree = "<group>"; };
+		CDB644811B24CBEC00AD903D /* fightcallout2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fightcallout2.png; sourceTree = "<group>"; };
 		CDF894261B22CED0009B1DEC /* FCOLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCOLoadingView.h; sourceTree = "<group>"; };
 		CDF894271B22CED0009B1DEC /* FCOLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCOLoadingView.m; sourceTree = "<group>"; };
 		CDF894281B22CED0009B1DEC /* JGAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGAnimationView.h; sourceTree = "<group>"; };
@@ -439,6 +441,7 @@
 		CDAEF8951B24494F0031334F /* images */ = {
 			isa = PBXGroup;
 			children = (
+				CDB644811B24CBEC00AD903D /* fightcallout2.png */,
 				72EFDB341B1BF3100059A9BF /* bg.png */,
 				CDAEF8961B2449700031334F /* floydmayweather.png */,
 				CDAEF8971B2449700031334F /* miketyson.png */,
@@ -595,6 +598,7 @@
 				72E5E3621B17F2CB00AA2005 /* Images.xcassets in Resources */,
 				72E7205D1B204E58002A3DE6 /* videosplash.mp4 in Resources */,
 				72EFDB511B1C00850059A9BF /* logindisable.png in Resources */,
+				CDB644821B24CBEC00AD903D /* fightcallout2.png in Resources */,
 				CDAEF8991B2449710031334F /* miketyson.png in Resources */,
 				72C2A5D01B21B14A00031EC0 /* icon_profile_selected.png in Resources */,
 				CDAEF8981B2449710031334F /* floydmayweather.png in Resources */,

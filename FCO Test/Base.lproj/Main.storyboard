@@ -924,7 +924,7 @@
         <scene sceneID="j8y-tV-Ay4">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Cfl-Df-KGC" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="fightcallout.png" id="ekc-Ep-ZvA">
+                    <tabBarItem key="tabBarItem" title="" image="fightcallout2.png" id="ekc-Ep-ZvA">
                         <inset key="imageInsets" minX="0.0" minY="6" maxX="0.0" maxY="-6"/>
                         <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
                         <userDefinedRuntimeAttributes>
@@ -983,7 +983,7 @@
         <image name="confirmKey.png" width="60" height="70"/>
         <image name="email.png" width="60" height="47"/>
         <image name="fighcallouttoptitle.png" width="1242" height="134"/>
-        <image name="fightcallout.png" width="84" height="70"/>
+        <image name="fightcallout2.png" width="70" height="50"/>
         <image name="icon_category" width="23" height="23"/>
         <image name="icon_forum" width="29" height="25"/>
         <image name="icon_home" width="25" height="25"/>
