@@ -13,8 +13,7 @@
 #import "MONPromptView.h"
 #import "CustomAlertViewController.h"
 #import "TransitionAnimator.h"
-
-
+#import "APIDataController.h"
 
 @interface ViewController () <AlertViewControllerDelegate, UIViewControllerTransitioningDelegate>
 
@@ -143,7 +142,7 @@
 
 
 - (IBAction)loginPressed:(UIButton *)sender {
-    NSString *title = @"Login Failed";
+    /*NSString *title = @"Login Failed";
     NSString *message = @"Invalid Email or Password";
     NSString *dismissTitle = @"OK";
     NSDictionary *attributes = @{ kMONPromptViewAttribDismissButtonBackgroundColor: [UIColor colorWithRed:107/255.0f green:12/255.0f blue:13/255.0f alpha:1.0f],
@@ -159,10 +158,14 @@
                                                           attributes:attributes];
     
     [promptView showInView:self.view];
+     */
     
     //[self performSegueWithIdentifier:@"loginToMainSegue" sender:self];
-
-
+    
+    //Call APIDataController and Login Function:
+    APIDataController *controller = [APIDataController getInstance];
+    [controller loginUserWithParameters];
+    
     
 }
 
