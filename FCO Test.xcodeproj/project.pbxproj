@@ -153,10 +153,10 @@
 		72EFDB5C1B1C07230059A9BF /* line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line.png; sourceTree = "<group>"; };
 		72EFDB5E1B1C0BB00059A9BF /* splashscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splashscreen.png; sourceTree = "<group>"; };
 		72F0BFD41B1DB04C00512D6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93A929491B24B2820029CE47 /* CallOutTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CallOutTableViewCell.h; sourceTree = "<group>"; };
 		CD27518D1B233D38007BCB6F /* fighcallouttoptitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fighcallouttoptitle.png; sourceTree = "<group>"; };
 		CD27518F1B23581A007BCB6F /* callout_thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = callout_thumbnail.png; sourceTree = "<group>"; };
 		CD2751911B235AAC007BCB6F /* callout_bubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = callout_bubble.png; sourceTree = "<group>"; };
-		CD2751981B235FA0007BCB6F /* CallOutTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallOutTableViewCell.h; sourceTree = "<group>"; };
 		CD2751991B235FA0007BCB6F /* CallOutTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallOutTableViewCell.m; sourceTree = "<group>"; };
 		CD27519A1B235FA0007BCB6F /* CallOutTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CallOutTableViewCell.xib; sourceTree = "<group>"; };
 		CD4F70AF1B1F55720092BE3B /* triangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triangle.png; sourceTree = "<group>"; };
@@ -299,7 +299,7 @@
 				CDAEF8851B24321F0031334F /* CallOutView */,
 				CDAEF8891B2432420031334F /* ForumView */,
 				CDAEF8901B2432780031334F /* ProfileView */,
-				CD2751981B235FA0007BCB6F /* CallOutTableViewCell.h */,
+				93A929491B24B2820029CE47 /* CallOutTableViewCell.h */,
 				CD2751991B235FA0007BCB6F /* CallOutTableViewCell.m */,
 				CD27519A1B235FA0007BCB6F /* CallOutTableViewCell.xib */,
 				72052D721B2028D700EB94D9 /* Helpers */,
