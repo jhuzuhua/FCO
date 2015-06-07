@@ -8,7 +8,23 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol LoginViewControllerDelegate <NSObject>
+
+@required
+-(void)didCancel;
+
+@end
+
+
 @interface ViewController : UIViewController
+@property (weak, nonatomic) id <LoginViewControllerDelegate> delegate;
+
+@property (strong, nonatomic) IBOutlet UITextField *usernameTextField;
+@property (strong, nonatomic) IBOutlet UITextField *passwordTextField;
+
+
+
+
 
 
 @end

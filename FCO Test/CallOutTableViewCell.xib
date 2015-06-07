@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="federalescort.ttf">
+            <string>FederalEscort</string>
+            <string>FederalEscort</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CallOutTableViewCell">
+            <connections>
+                <outlet property="boxingTitleLabel" destination="Uje-Pr-bm4" id="cXX-Zu-GEs"/>
+                <outlet property="calloutTableView" destination="hxw-25-Xbc" id="8I3-VE-6Th"/>
+                <outlet property="dateLabel" destination="WvS-Ue-k7E" id="XRa-6k-QDa"/>
+                <outlet property="datePeriodLabel" destination="SV6-9l-5iZ" id="XuP-we-xxZ"/>
+                <outlet property="leftOpponentImageView" destination="k8L-Vi-9ui" id="WLJ-0v-Ucc"/>
+                <outlet property="leftOpponentNameCallOutLabel" destination="mev-6G-OKi" id="y1g-IC-j51"/>
+                <outlet property="leftOpponentNameLabel" destination="T5U-Kb-XBN" id="s9D-Kr-M72"/>
+                <outlet property="rightOpponentImageView" destination="3bc-Kr-GD7" id="j0S-i2-QZs"/>
+                <outlet property="rightOpponentNameCallOutLabel" destination="dvG-uB-P2z" id="6NN-xU-c7I"/>
+                <outlet property="rightOpponentNameLabel" destination="vOr-xI-oed" id="qkL-A3-u40"/>
+                <outlet property="userCalloutLabel" destination="8oD-Qv-lDO" id="PxY-Ei-9JU"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleAspectFit" selectionStyle="none" indentationWidth="10" reuseIdentifier="Cell" rowHeight="400" id="hxw-25-Xbc">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="256"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hxw-25-Xbc" id="wJC-Km-FmX">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" verticalHuggingPriority="251" image="fighcallouttoptitle.png" translatesAutoresizingMaskIntoConstraints="NO" id="9HF-pr-Ucr">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="49"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="49" id="W1w-WH-7BJ"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="boxing" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uje-Pr-bm4">
+                        <rect key="frame" x="11" y="14" width="581" height="21"/>
+                        <fontDescription key="fontDescription" name="FederalEscort" family="Federal Escort" pointSize="18"/>
+                        <color key="textColor" red="0.51372549020000002" green="0.51372549020000002" blue="0.51372549020000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="callout_thumbnail.png" translatesAutoresizingMaskIntoConstraints="NO" id="3bc-Kr-GD7">
+                        <rect key="frame" x="247" y="57" width="70" height="70"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MIKE TYSON" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T5U-Kb-XBN">
+                        <rect key="frame" x="30" y="131" width="92" height="21"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="11"/>
+                        <color key="textColor" red="0.43921568630000002" green="0.43921568630000002" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="callout_bubble.png" translatesAutoresizingMaskIntoConstraints="NO" id="n05-v7-1T5">
+                        <rect key="frame" x="14" y="164" width="345" height="36"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Jun 8, 01:25" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WvS-Ue-k7E">
+                        <rect key="frame" x="18" y="171" width="64" height="21"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="11"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PM" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SV6-9l-5iZ">
+                        <rect key="frame" x="79" y="164" width="17" height="21"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="8"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Adam" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8oD-Qv-lDO">
+                        <rect key="frame" x="103" y="170" width="54" height="21"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tyson" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mev-6G-OKi">
+                        <rect key="frame" x="223" y="171" width="43" height="21"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CALLS-OUT" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Puu-V0-NJC">
+                        <rect key="frame" x="144" y="171" width="95" height="21"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="and" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gNE-QF-YCq">
+                        <rect key="frame" x="267" y="171" width="34" height="21"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OBj-zf-3Py">
+                        <rect key="frame" x="137" y="204" width="98" height="43"/>
+                        <state key="normal" title="View Details »">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="viewDetailsButtonPressed:" destination="-1" eventType="touchUpInside" id="gel-aw-Nad"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="VS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="seD-H5-wju">
+                        <rect key="frame" x="163" y="73" width="46" height="38"/>
+                        <fontDescription key="fontDescription" name="FederalEscort" family="Federal Escort" pointSize="24"/>
+                        <color key="textColor" red="0.43921568630000002" green="0.43921568630000002" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FLOYD MAYWEATHER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vOr-xI-oed">
+                        <rect key="frame" x="226" y="131" width="117" height="21"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="11"/>
+                        <color key="textColor" red="0.43921568630000002" green="0.43921568630000002" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="callout_thumbnail.png" translatesAutoresizingMaskIntoConstraints="NO" id="k8L-Vi-9ui">
+                        <rect key="frame" x="41" y="57" width="70" height="70"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Floyd" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dvG-uB-P2z">
+                        <rect key="frame" x="297" y="171" width="52" height="21"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="9HF-pr-Ucr" secondAttribute="trailing" id="aN0-hU-ivD"/>
+                    <constraint firstItem="9HF-pr-Ucr" firstAttribute="leading" secondItem="wJC-Km-FmX" secondAttribute="leading" id="hdS-S9-eO8"/>
+                    <constraint firstItem="9HF-pr-Ucr" firstAttribute="top" secondItem="wJC-Km-FmX" secondAttribute="top" id="qda-jx-S4R"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.15686274510000001" green="0.15686274510000001" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+            <point key="canvasLocation" x="410" y="1231"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="callout_bubble.png" width="1194" height="105"/>
+        <image name="callout_thumbnail.png" width="300" height="300"/>
+        <image name="fighcallouttoptitle.png" width="1242" height="134"/>
+    </resources>
+</document>

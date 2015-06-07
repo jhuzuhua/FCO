@@ -7,8 +7,12 @@
 //
 
 #import "AppDelegate.h"
+#import <IQKeyboardManager/IQKeyboardManager.h>
+
 
 @interface AppDelegate ()
+
+
 
 @end
 
@@ -17,6 +21,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+  
+    
+    
+    [[IQKeyboardManager sharedManager] setEnable:YES];
+    [[IQKeyboardManager sharedManager] setKeyboardDistanceFromTextField:100];
+    [[IQKeyboardManager sharedManager] setShouldResignOnTouchOutside:YES];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
