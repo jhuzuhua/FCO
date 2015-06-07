@@ -628,7 +628,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="call outs" id="E8c-OL-yOP">
-                        <barButtonItem key="leftBarButtonItem" image="key2.png" id="X8o-Eb-Y9E">
+                        <barButtonItem key="leftBarButtonItem" title="Login" id="X8o-Eb-Y9E">
                             <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             <connections>
                                 <action selector="loginBarItemPressed:" destination="NL1-c7-gFY" id="loi-AZ-p03"/>
@@ -990,7 +990,6 @@
         <image name="icon_profile" width="22" height="25"/>
         <image name="icon_search.png" width="22" height="22"/>
         <image name="key.png" width="66" height="70"/>
-        <image name="key2.png" width="22" height="22"/>
         <image name="line.png" width="1172" height="19"/>
         <image name="loginfade.png" width="1242" height="1991"/>
         <image name="splashscreen.png" width="1242" height="2208"/>

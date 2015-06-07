@@ -22,8 +22,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
   
-    
-    
+    NSDictionary *barButtonAppearanceDict = @{NSFontAttributeName : [UIFont fontWithName:@"FederalEscort" size:19.0], NSForegroundColorAttributeName: [UIColor lightGrayColor]};
+    [[UIBarButtonItem appearance] setTitleTextAttributes:barButtonAppearanceDict forState:UIControlStateNormal];
     [[IQKeyboardManager sharedManager] setEnable:YES];
     [[IQKeyboardManager sharedManager] setKeyboardDistanceFromTextField:100];
     [[IQKeyboardManager sharedManager] setShouldResignOnTouchOutside:YES];
