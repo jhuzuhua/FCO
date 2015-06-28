@@ -1,42 +1,54 @@
 PODS:
-  - AFNetworking (2.5.4):
-    - AFNetworking/NSURLConnection (= 2.5.4)
-    - AFNetworking/NSURLSession (= 2.5.4)
-    - AFNetworking/Reachability (= 2.5.4)
-    - AFNetworking/Security (= 2.5.4)
-    - AFNetworking/Serialization (= 2.5.4)
-    - AFNetworking/UIKit (= 2.5.4)
-  - AFNetworking/NSURLConnection (2.5.4):
+  - AFNetworking (2.5.3):
+    - AFNetworking/NSURLConnection (= 2.5.3)
+    - AFNetworking/NSURLSession (= 2.5.3)
+    - AFNetworking/Reachability (= 2.5.3)
+    - AFNetworking/Security (= 2.5.3)
+    - AFNetworking/Serialization (= 2.5.3)
+    - AFNetworking/UIKit (= 2.5.3)
+  - AFNetworking/NSURLConnection (2.5.3):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/NSURLSession (2.5.4):
+  - AFNetworking/NSURLSession (2.5.3):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/Reachability (2.5.4)
-  - AFNetworking/Security (2.5.4)
-  - AFNetworking/Serialization (2.5.4)
-  - AFNetworking/UIKit (2.5.4):
+  - AFNetworking/Reachability (2.5.3)
+  - AFNetworking/Security (2.5.3)
+  - AFNetworking/Serialization (2.5.3)
+  - AFNetworking/UIKit (2.5.3):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - IQKeyboardManager (3.2.3)
-  - LaunchScreenViewController (0.0.5)
-  - MHCustomTabBarController (1.2.0)
-  - RDVTabBarController (1.1.9)
+  - DZVideoPlayerViewController (0.2.0)
+  - GUIPlayerView (0.0.4)
+  - IQKeyboardManager (3.2.4)
+  - MONPromptView (0.0.1)
+  - PureLayout (2.0.6)
+  - RBStoryboardLink (0.1.4)
+  - VGParallaxHeader (0.0.6):
+    - PureLayout
+  - YKMediaPlayerKit (0.0.3)
 
 DEPENDENCIES:
-  - AFNetworking (~> 2.0)
+  - AFNetworking (= 2.5.3)
+  - DZVideoPlayerViewController
+  - GUIPlayerView (~> 0.0.4)
   - IQKeyboardManager
-  - LaunchScreenViewController
-  - MHCustomTabBarController
-  - RDVTabBarController
+  - MONPromptView (~> 0.0)
+  - RBStoryboardLink (~> 0.1)
+  - VGParallaxHeader
+  - YKMediaPlayerKit
 
 SPEC CHECKSUMS:
-  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
-  IQKeyboardManager: 6ca5c54e3776eb54af4c7caf515833f3cd761d59
-  LaunchScreenViewController: 47be6410d1161d63586c9fa539d3901cfd8354a4
-  MHCustomTabBarController: 09e04410232dc2cba73bab54b3987a6288e19df7
-  RDVTabBarController: 67794f7a7a37f8e32f046f85ac67d06ab92d624a
+  AFNetworking: e1d86c2a96bb5d2e7408da36149806706ee122fe
+  DZVideoPlayerViewController: b70535850e709ceb1766ec0268920939b65bc207
+  GUIPlayerView: 659256b3aefdd5d1041782ea40faaee250429f41
+  IQKeyboardManager: 555b1231fefafb21b19278d7cca72986a27b748b
+  MONPromptView: 18d8b2361aed8d2140c8727f4a8460ebfe09d8e7
+  PureLayout: f25f0bb904d5ccfe6e31da3cb869185259f02e0d
+  RBStoryboardLink: 0faae84aea6a5e8716c4469984d847d958c3fcb3
+  VGParallaxHeader: 1213aba58c9b0aea84f9e81ad526fde57aa4fe48
+  YKMediaPlayerKit: fd05f28f3f684c1891f913a7712c12f86c407285
 
 COCOAPODS: 0.37.1

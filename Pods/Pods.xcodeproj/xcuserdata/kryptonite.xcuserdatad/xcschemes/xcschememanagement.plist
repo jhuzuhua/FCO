@@ -9,22 +9,47 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-DZVideoPlayerViewController-DZVideoPlayerViewController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-DZVideoPlayerViewController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-GUIPlayerView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-IQKeyboardManager.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-LaunchScreenViewController.xcscheme</key>
+		<key>Pods-MONPromptView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-MHCustomTabBarController.xcscheme</key>
+		<key>Pods-PureLayout.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-RDVTabBarController.xcscheme</key>
+		<key>Pods-RBStoryboardLink.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-VGParallaxHeader.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-YKMediaPlayerKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -37,32 +62,57 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>115D3AE961A0300029410D28</key>
+		<key>30BD1A9161F1863530DBC4C7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3041C144DC0220A68D902090</key>
+		<key>4675A53D3BBFCAF7191F3780</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A47A0B9725E764C990FAFCEB</key>
+		<key>57C5447D15F122318580111C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B107D210E6E43657F73D4584</key>
+		<key>71268E716149ECBE5B3F5AC4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F55BA342CFA76C16F9287D82</key>
+		<key>B5E0734E319A02A68CC006E4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F93BFA72423836220238F7E2</key>
+		<key>CA49D0F45D44A424A9643337</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DD13F6167BC03FCCD4CA27AE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E5A50509ECB0AFBD89E8BE2C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EBC175FCD708940A14A66148</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F9A7B47B34AD61229D37C8B4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FAF1A02CFE2C30564A1CA832</key>
 		<dict>
 			<key>primary</key>
 			<true/>
